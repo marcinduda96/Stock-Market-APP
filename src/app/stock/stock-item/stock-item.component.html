@@ -1,0 +1,11 @@
+<div class="kontener">
+<div>  Witam w Stock Marke APP!</div>
+<div class="stock-container">
+
+  <div class="name" > {{ name + '(' + code + ')'  }}</div>
+  <div class="price" [class]="positiveChange ? 'positive' : 'negative'">
+    $ {{price}}
+  </div>
+<button (click)="toggleFaorite()" [disabled]="favorite">Dodaj do ulubionych</button>
+</div>
+</div>

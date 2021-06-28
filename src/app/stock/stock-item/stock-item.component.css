@@ -1,0 +1,20 @@
+.stock-container{
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+
+}
+.positive{
+  color: green;
+  font-weight: bold;
+}
+.negative{
+  color: red;
+  font-weight: bold;
+}
+
+.kontener{
+  text-align: center;
+  font-size: larger;
+}
